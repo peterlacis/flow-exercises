@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript | Flow | Three</title>
+</head>
+<body>
+    <script>
+
+        var player1Score = prompt("Player 1 Score:");
+        var player2Score = prompt("Player 2 Score:");
+
+        /*
+            Todo: Print out the number of the player with the higher score, or "Tie" if there is a tie.
+        */
+
+        if (player1Score < player2Score) {
+        	console.log("Player 2 Wins!");
+        } 	else if (player2Score < player1Score) {
+        	console.log("Player 1 Wins!");
+        }	else if (player1Score === player2Score) {
+        	console.log("Its a TIE!");
+        }
+
+    </script>
+</body>
+</html>
